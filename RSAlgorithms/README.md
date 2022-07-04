@@ -63,32 +63,6 @@ Guo, Guibing, Jie Zhang, and Neil Yorke-Smith. "TrustSVD: Collaborative Filterin
 
 Chuxu Zhang, Lu Yu, Yan Wang, Chirag Shah, Xiangliang Zhang. "Collaborative User Network Embedding for Social Recommender Systems." SDM, 2017.
 
-## RSAlgorithms implemented by Others
-
-Sedhain et al. "Autorec: Autoencoders meet collaborative filtering." WWW, 2015. [code](https://github.com/gtshs2/Autorec)
-
-Kim et al. "Convolutional matrix factorization for document context-aware recommendation." RecSys, 2016. [code](https://github.com/cartopy/ConvMF)
-
-Liang et al. "Factorization meets the item embedding: Regularizing matrix factorization with item co-occurrence." RecSys, 2016. [code](https://github.com/dawenl/cofactor)
-
-He et al. "Fast matrix factorization for online recommendation with implicit feedback." SIGIR, 2016. [code](https://github.com/hexiangnan/sigir16-eals)
-
-Quadrana et al. "Personalizing session-based recommendations with hierarchical recurrent neural networks." RecSys, 2017. [code](https://github.com/mquad/hgru4rec)
-
-He et al. "Neural collaborative filtering." WWW, 2017. [code](https://github.com/hexiangnan/neural_collaborative_filtering)
-
-Ebesu et al. "Collaborative Memory Network for Recommendation Systems." SIGIR, 2018. [code](https://github.com/tebesu/CollaborativeMemoryNetwork)
-
-Fan et al. "Graph Neural Networks for Social Recommendation." WWW, 2019. [code](https://github.com/Wang-Shuo/GraphRec_PyTorch)
-
-Chong et al. "Efﬁcient Heterogeneous Collaborative Filtering without Negative Sampling for Recommendation." AAAI, 2020. [code](https://github.com/chenchongthu/EHCF)
-
-
-## Requirements
-* numpy==1.14.2
-* scipy==1.0.1
-* pandas==0.22.0
-* matplotlib==2.2.2
 
 ## Code Structure
 
@@ -242,33 +216,6 @@ if __name__ == '__main__':
     print("the average of rmses is %s " % rmse_avg)
     print("the average of maes is %s " % mae_avg)
 
-```
-
-## Citing
-
-Please cite our paper if you use our codes. Thanks!
-
-    @inproceedings{pricai2018sotricf,
-    author="Zhang, Honglei and Liu, Gangdu and Wu, Jun",
-    title="Social Collaborative Filtering Ensemble",
-    booktitle="PRICAI 2018: Trends in Artificial Intelligence",
-    year="2018",
-    pages="1005--1017"
-    }
-
-## RSPapers
-
-Recently, we have launched an open source project [**RSPapers**](https://github.com/hongleizhang/RSPapers), which includes some classical **Surveys**, **Classical Recommender System**, **Social Recommender System**, **Deep Learning based Recommender System**, **Cold Start Problem in Recommender System** and **POI Recommender System**. 
-
-## Acknowledgements
-
-Specially summerize the Traditional and Social recommendations for you, and if you have any questions, please contact me generously. Last but not least, I sincerely look forward to working with you to contribute it.
-
-Greatly thank @**yunzhan2014** for making contributions to it.
-
-My ZhiHu: [Honglei Zhang](https://www.zhihu.com/people/hongleizhang)
-
-My Gmail: hongleizhang1993@gmail.com
 
 
 
