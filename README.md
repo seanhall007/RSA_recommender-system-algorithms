@@ -6,7 +6,7 @@ learning notes about recommender system algorithms
 
 ## Code Structure
 
-The structure of our project is presented in a tree form as follows:
+The structure of this project is presented in a tree form as follows:
 
 ```
 Recommender System  # the root of project
